@@ -30,7 +30,10 @@ alias lsa='ls -lah'
 alias l='ls -lah'
 alias ll='ls -lh'
 alias la='ls -lAh'
-alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+# Git aliases
+alias gs='git status'
+alias gp='git push'
+alias gc='git commit'
