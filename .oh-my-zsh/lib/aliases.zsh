@@ -10,6 +10,13 @@ alias -- -='cd -'
 alias _='sudo'
 alias please='sudo'
 
+# ipython
+alias ip="ipython"
+
+# Virtualenv
+alias venv="virtualenv env && source env/bin/activate"
+alias da="deactivate"
+
 #alias g='grep -in'
 
 # Show history
