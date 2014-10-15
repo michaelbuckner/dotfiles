@@ -45,3 +45,6 @@ alias gs='git status'
 alias gp='git push'
 alias gc='git commit'
 alias ga='git add -A'
+
+# VIM aliases
+alias vim='mvim'
