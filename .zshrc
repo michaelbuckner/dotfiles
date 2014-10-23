@@ -57,7 +57,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:${GOPATH//://bin:}/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin/"
+export GOROOT='/usr/local/go'
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
